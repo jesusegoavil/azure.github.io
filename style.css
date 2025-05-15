@@ -127,22 +127,41 @@ header p {
   color: #2563eb;
 }
 
-/* Botón de descarga */
+/* Botón de descarga / Mostrar parcial */
 .boton-descarga {
   display: inline-block;
-  margin-top: auto;
-  padding: 0.5rem 1rem;
+  padding: 0.6rem 1.2rem;
   background-color: #1e40af;
   color: white;
   text-decoration: none;
+  border: none;
   border-radius: 6px;
-  font-size: 0.95rem;
+  font-size: 1rem;
+  cursor: pointer;
   transition: background-color 0.3s;
-  text-align: center;
 }
 
 .boton-descarga:hover {
   background-color: #3749be;
+}
+
+/* Tarjetas de sesión parcial */
+.sesion {
+  background-color: #e2e8f0;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+
+.sesion:hover {
+  background-color: #cbd5e1;
+}
+
+.sesion a {
+  text-decoration: none;
+  color: #1e3a8a;
+  font-weight: bold;
+  display: block;
+  padding: 1rem;
 }
 
 /* Footer */
