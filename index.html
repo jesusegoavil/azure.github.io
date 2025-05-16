@@ -21,6 +21,10 @@
       border-right: 2px solid black;
       min-width: 200px;
     }
+    .sidebar a {
+      color: white;
+      text-decoration: none;
+    }
     .content {
       flex-grow: 1;
       padding: 2rem;
@@ -61,6 +65,7 @@
           <li><a href="#semana02">Semana 02</a></li>
           <li><a href="#semana03">Semana 03</a></li>
           <li><a href="#semana04">Semana 04</a></li>
+          <li><a href="#semana05">Semana 05</a></li>
           <li><a href="#semana06">Semana 06</a></li>
           <li><a href="#parcial">Examen Parcial</a></li>
         </ul>
@@ -78,6 +83,7 @@
         <a href="#semana02">Semana 02</a> | 
         <a href="#semana03">Semana 03</a> | 
         <a href="#semana04">Semana 04</a> | 
+        <a href="#semana05">Semana 05</a> | 
         <a href="#semana06">Semana 06</a> | 
         <a href="#parcial">Examen Parcial</a>
       </div>
@@ -126,56 +132,69 @@
         </div>
       </section>
 
+      <!-- Semana 05 -->
+      <section id="semana05" class="semana">
+        <h2>📅 Semana 05</h2>
+        <div class="tarjetas">
+          <div class="tarjeta">
+            <h3>👁️ Visualizar</h3>
+            <a href="https://docs.google.com/document/d/1KVs9Tq_eXkpS1V1orCkAST05p7E6MDx3Ktyq3MIgONo/edit?usp=sharing" target="_blank">Ver Documento</a>
+          </div>
+        </div>
+      </section>
+
       <!-- Semana 06 -->
       <section id="semana06" class="semana">
         <h2>📅 Semana 06</h2>
         <div class="tarjetas">
           <div class="tarjeta">
             <h3>📝 Teórica</h3>
-             <a href="https://docs.google.com/document/d/1PAje0EQbTvrVPCar_gvmrWc6VY61ZpEtpAnU4o3TGzI/edit?usp=sharing" target="_blank">👁️ Visualizar</a>
+            <a href="https://docs.google.com/document/d/1PAje0EQbTvrVPCar_gvmrWc6VY61ZpEtpAnU4o3TGzI/edit?usp=sharing" target="_blank">👁️ Visualizar</a>
           </div>
         </div>
       </section>
 
-     <section id="parcial" class="semana">
-  <h2>📘 EXAMEN PARCIAL</h2>
-  <div class="tarjetas" id="parcial-grid" style="display: none;">
-    <div class="tarjeta sesion">
-      <h4>Examen Parcial 1</h4>
-      <a href="https://docs.google.com/document/d/1e_saeF5sdphafMwdXafGex1sOPhvvjeYtG4W_3e8284/edit?usp=sharing" target="_blank">👁️ Visualizar</a>
-      <a href="tareas/ejecicio 1.pdf" download>⬇️ Descargar</a>
-    </div>
-    <div class="tarjeta sesion">
-      <h4>Examen Parcial 2</h4>
-      <a href="https://docs.google.com/document/d/1JNqwam7vWRRVKKnISPCi6QQiT1WX4xMnR-lvQFE9VWw/edit?usp=sharing" target="_blank">👁️ Visualizar</a>
-      <a href="tareas/ejercicio 2.pdf" download>⬇️ Descargar</a>
-    </div>
-    <div class="tarjeta sesion">
-      <h4>Examen Parcial 3</h4>
-      <a href="https://docs.google.com/document/d/1LV6JzV5cLz0PgFb_HFDz3tetzSgt3SS1UvwlaGRaEf4/edit?usp=sharing" target="_blank">👁️ Visualizar</a>
-      <a href="tareas/sesion 3.pdf" download>⬇️ Descargar</a>
-    </div>
-    <div class="tarjeta sesion">
-      <h4>Examen Parcial 4</h4>
-      <a href="https://docs.google.com/document/d/149lwLzxRRA1_w-Q8Lrr-8aR7mJb5rpb_jIu0Gdiga24/edit?usp=sharing" target="_blank">👁️ Visualizar</a>
-      <a href="tareas/ejecicio 4.pdf" download>⬇️ Descargar</a>
-    </div>
-    <div class="tarjeta sesion">
-      <h4>Examen Parcial 5</h4>
-      <a href="https://docs.google.com/document/d/1PCaHLuCnkA4dykxoJH7FnWxjb8-wLEQhtmaqJT0HH4w/edit?usp=sharing" target="_blank">👁️ Visualizar</a>
-      <a href="tareas/solucion 5.pdf" download>⬇️ Descargar</a>
-    </div>
-    <div class="tarjeta sesion">
-      <h4>Examen Parcial 6</h4>
-      <a href="https://docs.google.com/document/d/19nQycTA1b8_qB4Q-jL_AGY7m8NQs6ByS7HJGBuY0vWs/edit?usp=sharing" target="_blank">👁️ Visualizar</a>
-      <a href="tareas/ejercicio 6.pdf" download>⬇️ Descargar</a>
-    </div>
+      <!-- Parcial -->
+      <section id="parcial" class="semana">
+        <h2>📘 EXAMEN PARCIAL</h2>
+        <div class="tarjetas" id="parcial-grid" style="display: none;">
+          <div class="tarjeta sesion">
+            <h4>Examen Parcial 1</h4>
+            <a href="https://docs.google.com/document/d/1e_saeF5sdphafMwdXafGex1sOPhvvjeYtG4W_3e8284/edit?usp=sharing" target="_blank">👁️ Visualizar</a>
+            <a href="tareas/ejecicio 1.pdf" download>⬇️ Descargar</a>
+          </div>
+          <div class="tarjeta sesion">
+            <h4>Examen Parcial 2</h4>
+            <a href="https://docs.google.com/document/d/1JNqwam7vWRRVKKnISPCi6QQiT1WX4xMnR-lvQFE9VWw/edit?usp=sharing" target="_blank">👁️ Visualizar</a>
+            <a href="tareas/ejercicio 2.pdf" download>⬇️ Descargar</a>
+          </div>
+          <div class="tarjeta sesion">
+            <h4>Examen Parcial 3</h4>
+            <a href="https://docs.google.com/document/d/1LV6JzV5cLz0PgFb_HFDz3tetzSgt3SS1UvwlaGRaEf4/edit?usp=sharing" target="_blank">👁️ Visualizar</a>
+            <a href="tareas/sesion 3.pdf" download>⬇️ Descargar</a>
+          </div>
+          <div class="tarjeta sesion">
+            <h4>Examen Parcial 4</h4>
+            <a href="https://docs.google.com/document/d/149lwLzxRRA1_w-Q8Lrr-8aR7mJb5rpb_jIu0Gdiga24/edit?usp=sharing" target="_blank">👁️ Visualizar</a>
+            <a href="tareas/ejecicio 4.pdf" download>⬇️ Descargar</a>
+          </div>
+          <div class="tarjeta sesion">
+            <h4>Examen Parcial 5</h4>
+            <a href="https://docs.google.com/document/d/1PCaHLuCnkA4dykxoJH7FnWxjb8-wLEQhtmaqJT0HH4w/edit?usp=sharing" target="_blank">👁️ Visualizar</a>
+            <a href="tareas/solucion 5.pdf" download>⬇️ Descargar</a>
+          </div>
+          <div class="tarjeta sesion">
+            <h4>Examen Parcial 6</h4>
+            <a href="https://docs.google.com/document/d/19nQycTA1b8_qB4Q-jL_AGY7m8NQs6ByS7HJGBuY0vWs/edit?usp=sharing" target="_blank">👁️ Visualizar</a>
+            <a href="tareas/ejercicio 6.pdf" download>⬇️ Descargar</a>
+          </div>
+        </div>
+        <div style="text-align: center; margin-top: 1.5rem;">
+          <button id="mostrarParcial" class="boton-descarga">📘 Ver sesiones del parcial</button>
+        </div>
+      </section>
+    </main>
   </div>
-  <div style="text-align: center; margin-top: 1.5rem;">
-    <button id="mostrarParcial" class="boton-descarga">📘 Ver sesiones del parcial</button>
-  </div>
-</section>
-
 
   <script>
     document.getElementById("mostrarParcial").addEventListener("click", function () {
